@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 14</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/exercicio 14 .js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Exercicio 14</h1>
+        <p>Faça um algoritmo para ler: número da conta do cliente, saldo, débito e crédito. <br> Após, calcule e escreva
+            o saldo atual (saldo atual = saldo - débito + crédito). <br> Também teste se saldo atual for maior ou igual
+            a zero. <br>Em seguida escreva a mensagem 'Saldo Positivo', senão, escrever a mensagem 'Saldo Negativo' .
+        </p>
+        <div>
+            <p>Saldo</p>
+            <input type="number" id="saldo" placeholder="Digite seu saldo atual. ">
+            
+            <p>Débito</p>
+            <input type="number" id="debito" placeholder="Digite seu Débito atual">
+
+            <p>Crédito</p>
+            <input type="number" id="credito" placeholder="Digite o seu Crédito atual">
+
+            <button onclick="consultar()">Consultar Saldo Atual</button>
+
+            <p id="verificar"></p>
+            <p id="verificarsaldo"></p>
+            
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
