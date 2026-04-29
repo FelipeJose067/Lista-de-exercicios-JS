@@ -1,4 +1,11 @@
 * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,18 +25,8 @@ body {
     background: white;
     padding: 30px;
     border-radius: 10px;
-    border: 2px solid #ccc;    
-    width: 600px;
-    display: flex;
-    flex-direction: column; /* empilha os itens */
-    align-items: center;
-}
-p{
-    margin-bottom: 10px;
-}
-.principal {
-    width: 100%;
-    margin-top: 20px;
+    border: 2px solid #ccc;
+    width: 700px;
 }
 
 /* Título */
@@ -57,10 +54,14 @@ button {
     border-radius: 5px;
 }
 
+p{
+    margin-bottom: 10px;
+}
+
 /* Efeito hover */
 button:hover {
+    cursor: pointer; 
     background-color: #0056b3;
-    cursor: pointer;
 }
 
 /* Resultado */

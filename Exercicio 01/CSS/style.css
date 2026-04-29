@@ -1,49 +1,68 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-.title{
-    color: blue;
-    font-size: 40px;
-    padding: 10px;
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container central */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    text-align: center;
+    width: 400px;
+    
+}
+
+/* Título */
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .sub-title{
-    padding: 20px;
-    color: rgb(124, 150, 150);
-}
-
-.input{
-    display: flex;
-    /* align-items: center;
-    align-content: center; */
-    border: 2px solid gray;
-    box-shadow: 0px 10px 10px black;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-}
-
-.btn-default{
-    border: 2px solid gray;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-    background-color: blue;
-    color: white;
-
-}
-.btn-default:hover{
-    cursor: pointer;
-    background-color: brown;
-    color: white;
-}
-
-.respostausuario{
-    color: rgb(124, 150, 150);
     gap: 20px;
-    padding: 10px;    
 }
 
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+/* Botão */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+   
+}
+
+/* Efeito hover */
+button:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+/* Resultado */
+#resultado {
+    margin-top: 15px;
+    font-weight: bold;
+}
